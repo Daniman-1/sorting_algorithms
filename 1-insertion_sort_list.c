@@ -44,6 +44,5 @@ void insertion_sort_list(listint_t **list)
 			swap_nodes(list, &insert, iter);
 			print_list((const listint_t *)*list);
 		}
-	}
-	
+	}	
 }
